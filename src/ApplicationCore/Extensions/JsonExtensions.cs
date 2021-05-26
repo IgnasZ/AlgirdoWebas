@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace Microsoft.eShopWeb
+namespace Sula.Shipment
 {
     public static class JsonExtensions
     {

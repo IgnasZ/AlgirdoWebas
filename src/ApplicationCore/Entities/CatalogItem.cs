@@ -1,8 +1,8 @@
 ﻿using Ardalis.GuardClauses;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Interfaces;
 using System;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Entities
+namespace Sula.Shipment.ApplicationCore.Entities
 {
     public class CatalogItem : BaseEntity, IAggregateRoot
     {

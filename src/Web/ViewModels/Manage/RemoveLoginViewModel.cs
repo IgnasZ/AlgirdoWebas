@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.Web.ViewModels.Manage
+﻿namespace Sula.Shipment.Web.ViewModels.Manage
 {
     public class RemoveLoginViewModel
     {

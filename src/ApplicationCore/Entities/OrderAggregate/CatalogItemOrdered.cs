@@ -1,6 +1,6 @@
 ﻿using Ardalis.GuardClauses;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate
+namespace Sula.Shipment.ApplicationCore.Entities.OrderAggregate
 {
     /// <summary>
     /// Represents a snapshot of the item that was ordered. If catalog item details change, details of

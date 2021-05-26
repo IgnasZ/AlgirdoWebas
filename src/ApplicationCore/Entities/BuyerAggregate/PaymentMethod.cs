@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.ApplicationCore.Entities.BuyerAggregate
+﻿namespace Sula.Shipment.ApplicationCore.Entities.BuyerAggregate
 {
     public class PaymentMethod : BaseEntity
     {

@@ -1,9 +1,9 @@
 ﻿using Ardalis.GuardClauses;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate
+namespace Sula.Shipment.ApplicationCore.Entities.OrderAggregate
 {
     public class Order : BaseEntity, IAggregateRoot
     {

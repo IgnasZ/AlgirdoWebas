@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.PublicApi.CatalogBrandEndpoints;
-using Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints;
-using Microsoft.eShopWeb.PublicApi.CatalogTypeEndpoints;
+using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.PublicApi.CatalogBrandEndpoints;
+using Sula.Shipment.PublicApi.CatalogItemEndpoints;
+using Sula.Shipment.PublicApi.CatalogTypeEndpoints;
 
-namespace Microsoft.eShopWeb.PublicApi
+namespace Sula.Shipment.PublicApi
 {
     public class MappingProfile : Profile
     {

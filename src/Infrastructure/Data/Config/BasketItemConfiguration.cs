@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate;
+using Sula.Shipment.ApplicationCore.Entities.BasketAggregate;
 
-namespace Microsoft.eShopWeb.Infrastructure.Data.Config
+namespace Sula.Shipment.Infrastructure.Data.Config
 {
     public class BasketItemConfiguration : IEntityTypeConfiguration<BasketItem>
     {

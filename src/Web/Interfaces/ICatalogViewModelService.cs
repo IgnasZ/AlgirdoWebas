@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.eShopWeb.Web.ViewModels;
+using Sula.Shipment.Web.ViewModels;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Services
+namespace Sula.Shipment.Web.Services
 {
     public interface ICatalogViewModelService
     {

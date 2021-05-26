@@ -2,13 +2,13 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Interfaces;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints
+namespace Sula.Shipment.PublicApi.CatalogItemEndpoints
 {
     [Authorize(Roles = BlazorShared.Authorization.Constants.Roles.ADMINISTRATORS, AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class Delete : BaseAsyncEndpoint

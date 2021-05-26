@@ -1,8 +1,8 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+﻿using Sula.Shipment.ApplicationCore.Interfaces;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Services
+namespace Sula.Shipment.Web.Services
 {
     public static class EmailSenderExtensions
     {

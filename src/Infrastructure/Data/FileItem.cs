@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.Infrastructure.Data
+﻿namespace Sula.Shipment.Infrastructure.Data
 {
     public class FileItem
     {

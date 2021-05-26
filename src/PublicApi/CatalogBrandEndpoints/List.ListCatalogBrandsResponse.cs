@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Microsoft.eShopWeb.PublicApi.CatalogBrandEndpoints
+namespace Sula.Shipment.PublicApi.CatalogBrandEndpoints
 {
     public class ListCatalogBrandsResponse : BaseResponse
     {

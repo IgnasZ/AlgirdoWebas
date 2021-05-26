@@ -1,13 +1,13 @@
 ﻿using Ardalis.ApiEndpoints;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.Infrastructure.Identity;
+using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.Infrastructure.Identity;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.PublicApi.AuthEndpoints
+namespace Sula.Shipment.PublicApi.AuthEndpoints
 {
     public class Authenticate : BaseAsyncEndpoint
         .WithRequest<AuthenticateRequest>

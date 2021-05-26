@@ -1,5 +1,5 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.Infrastructure.Data;
+﻿using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.Infrastructure.Data;
 using System;
 using System.IO;
 using System.Net.Http;
@@ -8,7 +8,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Infrastructure.Services
+namespace Sula.Shipment.Infrastructure.Services
 {
     public class WebFileSystem : IFileSystem
     {

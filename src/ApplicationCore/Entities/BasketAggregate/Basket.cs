@@ -1,9 +1,9 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+﻿using Sula.Shipment.ApplicationCore.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate
+namespace Sula.Shipment.ApplicationCore.Entities.BasketAggregate
 {
     public class Basket : BaseEntity, IAggregateRoot
     {

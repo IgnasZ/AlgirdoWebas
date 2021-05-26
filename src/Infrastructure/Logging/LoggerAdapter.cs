@@ -1,7 +1,7 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+﻿using Sula.Shipment.ApplicationCore.Interfaces;
 using Microsoft.Extensions.Logging;
 
-namespace Microsoft.eShopWeb.Infrastructure.Logging
+namespace Sula.Shipment.Infrastructure.Logging
 {
     public class LoggerAdapter<T> : IAppLogger<T>
     {

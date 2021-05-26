@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.eShopWeb.ApplicationCore.Constants;
-using Microsoft.eShopWeb.Web.Interfaces;
-using Microsoft.eShopWeb.Web.ViewModels;
+using Sula.Shipment.ApplicationCore.Constants;
+using Sula.Shipment.Web.Interfaces;
+using Sula.Shipment.Web.ViewModels;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Pages.Admin
+namespace Sula.Shipment.Web.Pages.Admin
 {
     [Authorize(Roles = BlazorShared.Authorization.Constants.Roles.ADMINISTRATORS)]
     public class EditCatalogItemModel : PageModel

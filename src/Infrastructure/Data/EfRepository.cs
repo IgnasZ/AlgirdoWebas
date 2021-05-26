@@ -1,14 +1,14 @@
 ﻿using Ardalis.Specification;
 using Ardalis.Specification.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Infrastructure.Data
+namespace Sula.Shipment.Infrastructure.Data
 {
     /// <summary>
     /// "There's some repetition here - couldn't we have some the sync methods call the async?"

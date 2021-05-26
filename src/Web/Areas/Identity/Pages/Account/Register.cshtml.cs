@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.eShopWeb.Infrastructure.Identity;
+using Sula.Shipment.Infrastructure.Identity;
 using Microsoft.Extensions.Logging;
 
-namespace Microsoft.eShopWeb.Web.Areas.Identity.Pages.Account
+namespace Sula.Shipment.Web.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class RegisterModel : PageModel

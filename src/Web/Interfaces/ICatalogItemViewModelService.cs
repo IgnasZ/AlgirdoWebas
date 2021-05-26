@@ -1,7 +1,7 @@
-﻿using Microsoft.eShopWeb.Web.ViewModels;
+﻿using Sula.Shipment.Web.ViewModels;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Interfaces
+namespace Sula.Shipment.Web.Interfaces
 {
     public interface ICatalogItemViewModelService
     {

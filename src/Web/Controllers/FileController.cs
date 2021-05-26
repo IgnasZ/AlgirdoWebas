@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopWeb.Web.ViewModels.File;
+using Sula.Shipment.Web.ViewModels.File;
 using System;
 using System.IO;
 
-namespace Microsoft.eShopWeb.Web.Controllers
+namespace Sula.Shipment.Web.Controllers
 {
     [Route("[controller]")]
     [ApiController]

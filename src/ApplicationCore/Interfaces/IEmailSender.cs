@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Interfaces
+namespace Sula.Shipment.ApplicationCore.Interfaces
 {
 
     public interface IEmailSender

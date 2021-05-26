@@ -1,9 +1,9 @@
 ﻿using Ardalis.Specification;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Entities;
 using System;
 using System.Linq;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Specifications
+namespace Sula.Shipment.ApplicationCore.Specifications
 {
     public class CatalogItemsSpecification : Specification<CatalogItem>
     {

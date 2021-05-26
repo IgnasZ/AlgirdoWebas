@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Microsoft.eShopWeb.Infrastructure.Identity
+namespace Sula.Shipment.Infrastructure.Identity
 {
     public class AppIdentityDbContext : IdentityDbContext<ApplicationUser>
     {

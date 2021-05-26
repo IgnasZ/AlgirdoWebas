@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.Web.ViewModels.File
+﻿namespace Sula.Shipment.Web.ViewModels.File
 {
     public class FileViewModel
     {

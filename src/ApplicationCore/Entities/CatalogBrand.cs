@@ -1,6 +1,6 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+﻿using Sula.Shipment.ApplicationCore.Interfaces;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Entities
+namespace Sula.Shipment.ApplicationCore.Entities
 {
     public class CatalogBrand : BaseEntity, IAggregateRoot
     {

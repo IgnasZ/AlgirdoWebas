@@ -1,7 +1,7 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate;
+﻿using Sula.Shipment.ApplicationCore.Entities.OrderAggregate;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Interfaces
+namespace Sula.Shipment.ApplicationCore.Interfaces
 {
 
     public interface IOrderRepository : IAsyncRepository<Order>

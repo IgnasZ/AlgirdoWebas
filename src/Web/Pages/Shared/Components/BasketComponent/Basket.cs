@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopWeb.Infrastructure.Identity;
-using Microsoft.eShopWeb.Web.Interfaces;
-using Microsoft.eShopWeb.Web.Pages.Basket;
-using Microsoft.eShopWeb.Web.ViewModels;
+using Sula.Shipment.Infrastructure.Identity;
+using Sula.Shipment.Web.Interfaces;
+using Sula.Shipment.Web.Pages.Basket;
+using Sula.Shipment.Web.ViewModels;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Pages.Shared.Components.BasketComponent
+namespace Sula.Shipment.Web.Pages.Shared.Components.BasketComponent
 {
     public class Basket : ViewComponent
     {

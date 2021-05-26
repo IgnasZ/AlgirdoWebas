@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.PublicApi.CatalogTypeEndpoints
+﻿namespace Sula.Shipment.PublicApi.CatalogTypeEndpoints
 {
     public class CatalogTypeDto
     {

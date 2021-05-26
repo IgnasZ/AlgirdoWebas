@@ -1,16 +1,16 @@
 ﻿using Ardalis.ApiEndpoints;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.ApplicationCore.Specifications;
+using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Specifications;
 using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints
+namespace Sula.Shipment.PublicApi.CatalogItemEndpoints
 {
     public class ListPaged : BaseAsyncEndpoint
         .WithRequest<ListPagedCatalogItemRequest>

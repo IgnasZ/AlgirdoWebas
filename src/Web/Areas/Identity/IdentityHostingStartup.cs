@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 
-[assembly: HostingStartup(typeof(Microsoft.eShopWeb.Web.Areas.Identity.IdentityHostingStartup))]
-namespace Microsoft.eShopWeb.Web.Areas.Identity
+[assembly: HostingStartup(typeof(Sula.Shipment.Web.Areas.Identity.IdentityHostingStartup))]
+namespace Sula.Shipment.Web.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup
     {

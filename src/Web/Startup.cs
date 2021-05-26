@@ -12,10 +12,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.Infrastructure.Data;
-using Microsoft.eShopWeb.Infrastructure.Identity;
-using Microsoft.eShopWeb.Web.Configuration;
+using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.Infrastructure.Data;
+using Sula.Shipment.Infrastructure.Identity;
+using Sula.Shipment.Web.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -27,7 +27,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Mime;
 
-namespace Microsoft.eShopWeb.Web
+namespace Sula.Shipment.Web
 {
     public class Startup
     {

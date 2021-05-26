@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.eShopWeb.Infrastructure.Data;
-using Microsoft.eShopWeb.Infrastructure.Identity;
+using Sula.Shipment.Infrastructure.Data;
+using Sula.Shipment.Infrastructure.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web
+namespace Sula.Shipment.Web
 {
     public class Program
     {

@@ -1,6 +1,6 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+﻿using Sula.Shipment.ApplicationCore.Interfaces;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Services
+namespace Sula.Shipment.ApplicationCore.Services
 {
     public class UriComposer : IUriComposer
     {

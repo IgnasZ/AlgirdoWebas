@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.ApplicationCore.Constants
+﻿namespace Sula.Shipment.ApplicationCore.Constants
 {
     public class AuthorizationConstants
     {

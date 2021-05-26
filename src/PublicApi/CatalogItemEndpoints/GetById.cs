@@ -1,12 +1,12 @@
 ﻿using Ardalis.ApiEndpoints;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Interfaces;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints
+namespace Sula.Shipment.PublicApi.CatalogItemEndpoints
 {
     public class GetById : BaseAsyncEndpoint
         .WithRequest<GetByIdCatalogItemRequest>

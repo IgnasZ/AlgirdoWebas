@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints
+namespace Sula.Shipment.PublicApi.CatalogItemEndpoints
 {
     public class UpdateCatalogItemResponse : BaseResponse
     {

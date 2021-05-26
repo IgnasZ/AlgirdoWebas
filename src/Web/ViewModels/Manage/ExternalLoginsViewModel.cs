@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 
-namespace Microsoft.eShopWeb.Web.ViewModels.Manage
+namespace Sula.Shipment.Web.ViewModels.Manage
 {
     public class ExternalLoginsViewModel
     {

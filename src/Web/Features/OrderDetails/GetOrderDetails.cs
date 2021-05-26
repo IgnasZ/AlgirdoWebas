@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using Microsoft.eShopWeb.Web.ViewModels;
+using Sula.Shipment.Web.ViewModels;
 
-namespace Microsoft.eShopWeb.Web.Features.OrderDetails
+namespace Sula.Shipment.Web.Features.OrderDetails
 {
     public class GetOrderDetails : IRequest<OrderViewModel>
     {

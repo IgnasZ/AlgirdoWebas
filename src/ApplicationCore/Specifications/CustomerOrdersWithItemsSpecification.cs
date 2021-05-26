@@ -1,7 +1,7 @@
 ﻿using Ardalis.Specification;
-using Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate;
+using Sula.Shipment.ApplicationCore.Entities.OrderAggregate;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Specifications
+namespace Sula.Shipment.ApplicationCore.Specifications
 {
     public class CustomerOrdersWithItemsSpecification : Specification<Order>
     {

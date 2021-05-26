@@ -4,17 +4,17 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate;
-using Microsoft.eShopWeb.ApplicationCore.Exceptions;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.Infrastructure.Identity;
-using Microsoft.eShopWeb.Web.Interfaces;
+using Sula.Shipment.ApplicationCore.Entities.OrderAggregate;
+using Sula.Shipment.ApplicationCore.Exceptions;
+using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.Infrastructure.Identity;
+using Sula.Shipment.Web.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Pages.Basket
+namespace Sula.Shipment.Web.Pages.Basket
 {
     [Authorize]
     public class CheckoutModel : PageModel

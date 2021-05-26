@@ -1,7 +1,7 @@
 ﻿using Ardalis.Specification;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Entities;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Specifications
+namespace Sula.Shipment.ApplicationCore.Specifications
 {
     public class CatalogFilterSpecification : Specification<CatalogItem>
     {

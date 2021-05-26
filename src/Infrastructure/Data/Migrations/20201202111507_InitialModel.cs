@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
+namespace Sula.Shipment.Infrastructure.Data.Migrations
 {
     public partial class InitialModel : Migration
     {

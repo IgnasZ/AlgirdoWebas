@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.eShopWeb.ApplicationCore.Constants;
+using Sula.Shipment.ApplicationCore.Constants;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Infrastructure.Identity
+namespace Sula.Shipment.Infrastructure.Identity
 {
     public class AppIdentityDbContextSeed
     {

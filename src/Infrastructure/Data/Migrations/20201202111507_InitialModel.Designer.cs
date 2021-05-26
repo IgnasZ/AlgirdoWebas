@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Microsoft.eShopWeb.Infrastructure.Data;
+using Sula.Shipment.Infrastructure.Data;
 
-namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
+namespace Sula.Shipment.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(CatalogContext))]
     [Migration("20201202111507_InitialModel")]
@@ -30,7 +30,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
             modelBuilder.HasSequence("catalog_type_hilo")
                 .IncrementsBy(10);
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.BasketAggregate.Basket", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -47,7 +47,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.ToTable("Baskets");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.BasketItem", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.BasketAggregate.BasketItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -73,7 +73,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.ToTable("BasketItems");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.CatalogBrand", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -90,7 +90,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.ToTable("CatalogBrands");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.CatalogItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -126,7 +126,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.ToTable("Catalog");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.CatalogType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -143,7 +143,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.ToTable("CatalogTypes");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Order", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.OrderAggregate.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -161,7 +161,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.OrderItem", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.OrderAggregate.OrderItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -184,24 +184,24 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.ToTable("OrderItems");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.BasketItem", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.BasketAggregate.BasketItem", b =>
                 {
-                    b.HasOne("Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket", null)
+                    b.HasOne("Sula.Shipment.ApplicationCore.Entities.BasketAggregate.Basket", null)
                         .WithMany("Items")
                         .HasForeignKey("BasketId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.CatalogItem", b =>
                 {
-                    b.HasOne("Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand", "CatalogBrand")
+                    b.HasOne("Sula.Shipment.ApplicationCore.Entities.CatalogBrand", "CatalogBrand")
                         .WithMany()
                         .HasForeignKey("CatalogBrandId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType", "CatalogType")
+                    b.HasOne("Sula.Shipment.ApplicationCore.Entities.CatalogType", "CatalogType")
                         .WithMany()
                         .HasForeignKey("CatalogTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -212,9 +212,9 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.Navigation("CatalogType");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Order", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.OrderAggregate.Order", b =>
                 {
-                    b.OwnsOne("Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Address", "ShipToAddress", b1 =>
+                    b.OwnsOne("Sula.Shipment.ApplicationCore.Entities.OrderAggregate.Address", "ShipToAddress", b1 =>
                         {
                             b1.Property<int>("OrderId")
                                 .ValueGeneratedOnAdd()
@@ -256,13 +256,13 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.Navigation("ShipToAddress");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.OrderItem", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.OrderAggregate.OrderItem", b =>
                 {
-                    b.HasOne("Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Order", null)
+                    b.HasOne("Sula.Shipment.ApplicationCore.Entities.OrderAggregate.Order", null)
                         .WithMany("OrderItems")
                         .HasForeignKey("OrderId");
 
-                    b.OwnsOne("Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.CatalogItemOrdered", "ItemOrdered", b1 =>
+                    b.OwnsOne("Sula.Shipment.ApplicationCore.Entities.OrderAggregate.CatalogItemOrdered", "ItemOrdered", b1 =>
                         {
                             b1.Property<int>("OrderItemId")
                                 .ValueGeneratedOnAdd()
@@ -291,12 +291,12 @@ namespace Microsoft.eShopWeb.Infrastructure.Data.Migrations
                     b.Navigation("ItemOrdered");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.BasketAggregate.Basket", b =>
                 {
                     b.Navigation("Items");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Order", b =>
+            modelBuilder.Entity("Sula.Shipment.ApplicationCore.Entities.OrderAggregate.Order", b =>
                 {
                     b.Navigation("OrderItems");
                 });

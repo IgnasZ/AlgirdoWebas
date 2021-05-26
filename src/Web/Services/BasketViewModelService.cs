@@ -1,15 +1,15 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.ApplicationCore.Specifications;
-using Microsoft.eShopWeb.Web.Interfaces;
-using Microsoft.eShopWeb.Web.Pages.Basket;
+﻿using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Entities.BasketAggregate;
+using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Specifications;
+using Sula.Shipment.Web.Interfaces;
+using Sula.Shipment.Web.Pages.Basket;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Services
+namespace Sula.Shipment.Web.Services
 {
     public class BasketViewModelService : IBasketViewModelService
     {

@@ -1,7 +1,7 @@
 ﻿using Ardalis.Specification;
-using Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate;
+using Sula.Shipment.ApplicationCore.Entities.BasketAggregate;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Specifications
+namespace Sula.Shipment.ApplicationCore.Specifications
 {
     public sealed class BasketWithItemsSpecification : Specification<Basket>
     {

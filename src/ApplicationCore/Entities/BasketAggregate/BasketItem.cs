@@ -1,6 +1,6 @@
 ﻿using Ardalis.GuardClauses;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate
+namespace Sula.Shipment.ApplicationCore.Entities.BasketAggregate
 {
     public class BasketItem : BaseEntity
     {

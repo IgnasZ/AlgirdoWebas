@@ -1,4 +1,4 @@
-﻿ namespace Microsoft.eShopWeb.Web
+﻿ namespace Sula.Shipment.Web
 {
     public static class Constants
     {

@@ -1,10 +1,10 @@
 ﻿using Ardalis.Specification;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Entities;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Interfaces
+namespace Sula.Shipment.ApplicationCore.Interfaces
 {
     public interface IAsyncRepository<T> where T : BaseEntity, IAggregateRoot
     {

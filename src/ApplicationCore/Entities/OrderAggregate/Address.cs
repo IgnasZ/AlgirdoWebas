@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate
+﻿namespace Sula.Shipment.ApplicationCore.Entities.OrderAggregate
 {
     public class Address // ValueObject
     {

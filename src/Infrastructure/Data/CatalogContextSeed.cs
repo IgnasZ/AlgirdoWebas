@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Entities;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Infrastructure.Data
+namespace Sula.Shipment.Infrastructure.Data
 {
     public class CatalogContextSeed
     {

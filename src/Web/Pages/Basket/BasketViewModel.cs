@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace Microsoft.eShopWeb.Web.Pages.Basket
+namespace Sula.Shipment.Web.Pages.Basket
 {
     public class BasketViewModel
     {

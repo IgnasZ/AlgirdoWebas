@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Microsoft.eShopWeb.Web.ViewModels.Account
+namespace Sula.Shipment.Web.ViewModels.Account
 {
     public class RegisterViewModel
     {

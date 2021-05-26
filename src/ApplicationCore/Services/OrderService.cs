@@ -1,14 +1,14 @@
 ﻿using Ardalis.GuardClauses;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate;
-using Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.ApplicationCore.Specifications;
+using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Entities.BasketAggregate;
+using Sula.Shipment.ApplicationCore.Entities.OrderAggregate;
+using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Specifications;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Services
+namespace Sula.Shipment.ApplicationCore.Services
 {
     public class OrderService : IOrderService
     {

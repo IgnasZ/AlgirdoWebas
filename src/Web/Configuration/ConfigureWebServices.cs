@@ -1,10 +1,10 @@
 ﻿using MediatR;
-using Microsoft.eShopWeb.Web.Interfaces;
-using Microsoft.eShopWeb.Web.Services;
+using Sula.Shipment.Web.Interfaces;
+using Sula.Shipment.Web.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Microsoft.eShopWeb.Web.Configuration
+namespace Sula.Shipment.Web.Configuration
 {
     public static class ConfigureWebServices
     {

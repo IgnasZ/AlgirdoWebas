@@ -1,7 +1,7 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+﻿using Sula.Shipment.ApplicationCore.Interfaces;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Infrastructure.Services
+namespace Sula.Shipment.Infrastructure.Services
 {
     // This class is used by the application to send email for account confirmation and password reset.
     // For more details see https://go.microsoft.com/fwlink/?LinkID=532713

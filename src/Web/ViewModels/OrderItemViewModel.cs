@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.Web.ViewModels
+﻿namespace Sula.Shipment.Web.ViewModels
 {
     public class OrderItemViewModel
     {

@@ -1,5 +1,5 @@
-﻿using Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate;
-using Microsoft.eShopWeb.ApplicationCore.Exceptions;
+﻿using Sula.Shipment.ApplicationCore.Entities.BasketAggregate;
+using Sula.Shipment.ApplicationCore.Exceptions;
 using System.Collections.Generic;
 using System.Linq;
 

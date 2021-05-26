@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.ApplicationCore.Specifications;
-using Microsoft.eShopWeb.Web.ViewModels;
+using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Specifications;
+using Sula.Shipment.Web.ViewModels;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Services
+namespace Sula.Shipment.Web.Services
 {
     /// <summary>
     /// This is a UI-specific service so belongs in UI project. It does not contain any business logic and works

@@ -1,12 +1,12 @@
 ﻿using MediatR;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
-using Microsoft.eShopWeb.ApplicationCore.Specifications;
-using Microsoft.eShopWeb.Web.ViewModels;
+using Sula.Shipment.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Specifications;
+using Sula.Shipment.Web.ViewModels;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Web.Features.OrderDetails
+namespace Sula.Shipment.Web.Features.OrderDetails
 {
     public class GetOrderDetailsHandler : IRequestHandler<GetOrderDetails, OrderViewModel>
     {

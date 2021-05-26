@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb.PublicApi.AuthEndpoints
+﻿namespace Sula.Shipment.PublicApi.AuthEndpoints
 {
     public class AuthenticateRequest : BaseRequest 
     {

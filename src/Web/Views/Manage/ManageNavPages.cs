@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using System;
 
-namespace Microsoft.eShopWeb.Web.Views.Manage
+namespace Sula.Shipment.Web.Views.Manage
 {
     public static class ManageNavPages
     {

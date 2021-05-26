@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Microsoft.eShopWeb.Web.Configuration
+namespace Sula.Shipment.Web.Configuration
 {
     public static class ConfigureCookieSettings
     {

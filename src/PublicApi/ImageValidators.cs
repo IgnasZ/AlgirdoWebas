@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Microsoft.eShopWeb.PublicApi
+namespace Sula.Shipment.PublicApi
 {
     public static class ImageValidators
     {

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopWeb
+﻿namespace Sula.Shipment
 {
     public class CatalogSettings
     {

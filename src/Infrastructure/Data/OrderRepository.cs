@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Entities.OrderAggregate;
+using Sula.Shipment.ApplicationCore.Interfaces;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Infrastructure.Data
+namespace Sula.Shipment.Infrastructure.Data
 {
     public class OrderRepository : EfRepository<Order>, IOrderRepository
     {

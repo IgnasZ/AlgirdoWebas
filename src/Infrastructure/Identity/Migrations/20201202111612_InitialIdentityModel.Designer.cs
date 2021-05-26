@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Microsoft.eShopWeb.Infrastructure.Identity;
+using Sula.Shipment.Infrastructure.Identity;
 
-namespace Microsoft.eShopWeb.Infrastructure.Identity.Migrations
+namespace Sula.Shipment.Infrastructure.Identity.Migrations
 {
     [DbContext(typeof(AppIdentityDbContext))]
     [Migration("20201202111612_InitialIdentityModel")]
@@ -152,7 +152,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Identity.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Microsoft.eShopWeb.Infrastructure.Identity.ApplicationUser", b =>
+            modelBuilder.Entity("Sula.Shipment.Infrastructure.Identity.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -228,7 +228,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Microsoft.eShopWeb.Infrastructure.Identity.ApplicationUser", null)
+                    b.HasOne("Sula.Shipment.Infrastructure.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -237,7 +237,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Microsoft.eShopWeb.Infrastructure.Identity.ApplicationUser", null)
+                    b.HasOne("Sula.Shipment.Infrastructure.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -252,7 +252,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Identity.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Microsoft.eShopWeb.Infrastructure.Identity.ApplicationUser", null)
+                    b.HasOne("Sula.Shipment.Infrastructure.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -261,7 +261,7 @@ namespace Microsoft.eShopWeb.Infrastructure.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Microsoft.eShopWeb.Infrastructure.Identity.ApplicationUser", null)
+                    b.HasOne("Sula.Shipment.Infrastructure.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

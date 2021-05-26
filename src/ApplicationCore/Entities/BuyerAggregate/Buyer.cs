@@ -1,8 +1,8 @@
 ﻿using Ardalis.GuardClauses;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Interfaces;
 using System.Collections.Generic;
 
-namespace Microsoft.eShopWeb.ApplicationCore.Entities.BuyerAggregate
+namespace Sula.Shipment.ApplicationCore.Entities.BuyerAggregate
 {
     public class Buyer : BaseEntity, IAggregateRoot
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.eShopWeb.ApplicationCore.Constants;
-using Microsoft.eShopWeb.ApplicationCore.Interfaces;
+using Sula.Shipment.ApplicationCore.Constants;
+using Sula.Shipment.ApplicationCore.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopWeb.Infrastructure.Identity
+namespace Sula.Shipment.Infrastructure.Identity
 {
     public class IdentityTokenClaimService : ITokenClaimsService
     {

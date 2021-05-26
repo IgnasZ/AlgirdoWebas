@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopWeb.ApplicationCore.Entities;
-using Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate;
-using Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate;
+using Sula.Shipment.ApplicationCore.Entities;
+using Sula.Shipment.ApplicationCore.Entities.BasketAggregate;
+using Sula.Shipment.ApplicationCore.Entities.OrderAggregate;
 using System.Reflection;
 
-namespace Microsoft.eShopWeb.Infrastructure.Data
+namespace Sula.Shipment.Infrastructure.Data
 {
 
     public class CatalogContext : DbContext
