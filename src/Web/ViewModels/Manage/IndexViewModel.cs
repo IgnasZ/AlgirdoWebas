@@ -18,17 +18,17 @@ namespace Microsoft.eShopWeb.Web.ViewModels.Manage
         public string PhoneNumber { get; set; }
 
         [Required]
-        [StringLength(4)]
+        [StringLength(50)]
         [Display(Name = "Name")]
         public string Name { get; set; }
 
         [Required]
-        [StringLength(4)]
+        [StringLength(50)]
         [Display(Name = "Surname")]
         public string Surname { get; set; }
 
         [Required]
-        [StringLength(4)]
+        [StringLength(50)]
         [Display(Name = "Address")]
         public string Address { get; set; }
 

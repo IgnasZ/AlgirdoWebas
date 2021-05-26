@@ -48,18 +48,6 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label class="control-label col-md-6">Brand</label>
-                                        <div class="col-md-12">
-                                            <InputSelect @bind-Value="_item.CatalogBrandId" class="form-control">
-                                                @foreach (var brand in Brands)
-                                                {
-                                                    <option value="@brand.Id">@brand.Name</option>
-                                                }
-                                            </InputSelect>
-                                            <ValidationMessage For="(() => _item.CatalogBrandId)" />
-                                        </div>
-                                    </div>
 
                                     <div class="form-group">
                                         <label class="control-label col-md-6">Type</label>

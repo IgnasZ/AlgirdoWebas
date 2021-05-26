@@ -56,7 +56,10 @@ namespace Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate
 
         internal void SetNewCourierArrivalTime(string courierArrivalTime)
         {
-            CourierArrivalTime = DateTime.Parse(courierArrivalTime);
+            if (DateTime.TryParse(courierArrivalTime, out var courierDate))
+            {
+                CourierArrivalTime = courierDate;
+            }
         }
 
         internal void SetNewRecipientSurname(string recipientSurname)

@@ -13,7 +13,7 @@ namespace BlazorShared.Models
         public int CatalogTypeId { get; set; }
         public string CatalogType { get; set; } = "NotSet";
 
-        public int CatalogBrandId { get; set; }
+        public int CatalogBrandId { get; set; } = 1;
         public string CatalogBrand { get; set; } = "NotSet";
 
         [Required(ErrorMessage = "The Name field is required")]
